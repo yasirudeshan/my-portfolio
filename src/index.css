@@ -11,4 +11,25 @@ body{
   
 }
 
+li:hover{
+  background: linear-gradient(to right, #D574F8 0%, #4CA5FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  transform: scale(110%);
+  transition: .2s ease-out;
+}
+
+.yasiru{
+  background: linear-gradient(to right, #D574F8 0%, #4CA5FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbg{
+  
+  backdrop-filter: blur(10px);
+}
+
+
+
 
