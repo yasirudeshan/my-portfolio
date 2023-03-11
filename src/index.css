@@ -11,7 +11,7 @@ body{
   
 }
 
-li:hover{
+.navli:hover{
   background: linear-gradient(to right, #D574F8 0%, #4CA5FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -30,6 +30,20 @@ li:hover{
   backdrop-filter: blur(10px);
 }
 
+.sicons{
+  width: 15px;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
+@media (max-width:1200px){
+  .md\:p-40{
+    padding: 10rem 2rem!important;
+  }
+}
 
