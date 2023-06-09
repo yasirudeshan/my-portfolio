@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link to ='skills' smooth={true} duration = {500}>Skills</Link>
             </li>
             <li className='p-4 navli'>
-                <Link to ='blogs' smooth={true} duration = {500}>Blogs</Link>
+                <Link to ='blogs' smooth={true} duration = {500}>Projects</Link>
             </li>
             <li className='p-4 navli'>
                 <Link to ='contactme' smooth={true} duration = {500}>Contact me</Link>

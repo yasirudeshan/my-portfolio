@@ -1,6 +1,6 @@
 import React from 'react'
 import yas from '../img/yas.png'
-import arrow from '../img/dashedarrow.png'
+
 import Typed from 'react-typed'
 import {FaTwitter, FaLinkedin, FaGithub, FaBehance} from 'react-icons/fa'
 
@@ -9,7 +9,7 @@ import {FaTwitter, FaLinkedin, FaGithub, FaBehance} from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div name='home' className='md:h-screen md:grid grid-cols-2 h:screen md:768px  md:p-40 mx-auto p-10 justify-between'>
+    <div name='home' className='md:h-screen  md:grid grid-cols-2 h:screen md:768px md:p-44 mx-auto  justify-between'>
         <div className='flex flex-col text-xs text-gray-300 font-semibold grid-span-3'>
             <h1 className='md:text-6xl text-4xl md:text-left lg:text-left text-center pt-20'>Hi, I'm</h1>
 
@@ -21,7 +21,7 @@ const Home = () => {
                 loop = 'true'
                  />
 
-            <p className='md:text-xl uppercase font-semibold pt-4  md:text-left lg:text-left text-center'>Full-Stack Developer   Graphic Designer</p>
+            <p className='md:text-xl uppercase font-light pt-4  md:text-left lg:text-left text-center'>Full-Stack Developer</p>
             
             
             <div className='py-8'>
@@ -50,8 +50,8 @@ const Home = () => {
             {/*<img src={arrow} alt = "yas" style={{width: '370px'}} />*/}
             </div>
         </div>
-        <div className='col-span-1 '>
-        <img src={yas} alt = "yas" style={{width: '600px'}} />
+        <div className='col-span-1 flex justify-center'>
+        <img src={yas} alt = "yas" style={{width: '500px'}} />
         </div>
     </div>
     
