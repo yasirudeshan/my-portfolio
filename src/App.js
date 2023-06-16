@@ -5,7 +5,9 @@ import Navbar from "./components/Navbar";
 import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
 import Blogs from "./components/Blogs";
-import Contactme from "./components/Contactme";
+
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
       <Aboutme />
       <Skills />
       <Blogs />
-      <Contactme /> 
+      <Footer/>
     </div>
+
+
+
   );
 }
 

@@ -9,7 +9,7 @@ import {FaTwitter, FaLinkedin, FaGithub, FaBehance} from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div name='home' className='md:h-screen  md:grid grid-cols-2 h:screen md:768px md:p-44 mx-auto  justify-between'>
+    <div name='home' className='md:h-screen lg:w-[1200px] items-center  md:grid grid-cols-2 h:screen md:768px mx-auto  justify-between'>
         <div className='flex flex-col text-xs text-gray-300 font-semibold grid-span-3'>
             <h1 className='md:text-6xl text-4xl md:text-left lg:text-left text-center pt-20'>Hi, I'm</h1>
 

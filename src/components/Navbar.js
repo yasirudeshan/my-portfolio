@@ -10,27 +10,30 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px]  flex justify-between items-center px-4 text-gray-300 navbg '>
-        <div className='sm:w-10 w-6'>
+    <div className='fixed w-full h-[80px] flex items-center px-4 text-gray-300 navbg '>
+       <div className='m-auto w-[1200px] flex justify-between items-center '>
+       <div className='sm:w-10 w-6'>
             <img src={logo} alt = "logo" style={{width: '36px'}} />
         </div>
         {/*menu */}
-        <ul className='hidden md:flex cursor-pointer'>
-            <li className='p-4 navli'>
-                <Link to ='home' smooth={true} duration = {500}>Home</Link>
+        <ul className='hidden md:flex items-center cursor-pointer'>
+            <li className='navli'>
+                <Link to ='home' className='p-4' smooth={true} duration = {500}>Home</Link>
             </li>
-            <li className='p-4 navli'>
-                <Link to ='aboutme' smooth={true} duration = {500}>About me</Link>
+            <li className='navli'>
+                <Link to ='aboutme' className='p-4' smooth={true} duration = {500}>About me</Link>
             </li>
-            <li className='p-4 navli'>
-                <Link to ='skills' smooth={true} duration = {500}>Skills</Link>
+            <li className='navli'>
+                <Link to ='skills' className='p-4' smooth={true} duration = {500}>Skills</Link>
             </li>
-            <li className='p-4 navli'>
-                <Link to ='blogs' smooth={true} duration = {500}>Projects</Link>
+            <li className='navli'>
+                <Link to ='blogs' className='p-4' smooth={true} duration = {500}>Projects</Link>
             </li>
-            <li className='p-4 navli'>
-                <Link to ='contactme' smooth={true} duration = {500}>Contact me</Link>
-            </li>
+            
+            <a href = "mailto:rpyasiru@gmail.com">
+                    <button className='bg-white rounded p-1 px-2 text-black mx-3'>Contact me</button>
+                </a>
+            
         </ul>
 
         {/*hamberger */}
@@ -52,11 +55,15 @@ const Navbar = () => {
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick}  to ='blogs' smooth={true} duration = {500}>Blogs</Link>
             </li>
-            <li className='py-6 text-4xl'>
-                <Link onClick={handleClick}  to ='contactme' smooth={true} duration = {500}>Contact me</Link>
+            <li>
+                <a href = "mailto:rpyasiru@gmail.com">
+                    <button className='bg-white rounded p-2 text-black'>Contact me</button>
+                </a>
+                
             </li>
         </ul>
         
+       </div>
 
     </div>
   )

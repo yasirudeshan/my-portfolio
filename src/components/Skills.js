@@ -7,10 +7,10 @@ import {TbBrandVisualStudio, } from 'react-icons/tb'
 
 const Skills = () => {
   return (
-    <div name = 'skills' className='h-screen w-full mx-auto'>
-        <h1 className='text-3xl text-center lg:pt-28 lg:text-4xl font-bold yasiru pt-20 '>Skills</h1>
+    <div name = 'skills' className=' w-full mx-auto'>
+        <h1 className='text-3xl text-center lg:pt-28 lg:text-4xl font-bold yasiru pt-20'>Skills</h1>
 
-        <div className='flex justify-center items-center px-8 gap-4 lg:gap-8 pt-12 '>
+        <div className='flex flex-wrap justify-center items-center px-8 gap-4 lg:gap-8 lg:pt-16 mt-6 '>
           
           <FaJava size={50} color='white'/>
           <SiJavascript size={50} color='white'/>
@@ -31,7 +31,7 @@ const Skills = () => {
         </div>
 
     
-        <div className=' flex justify-center  gap-4 lg:gap-8 pt-12'>
+        <div className='flex justify-center  gap-4 lg:gap-8 pt-12'>
           <TbBrandVisualStudio size={50} color='white'/>
           <SiIntellijidea size={50} color='white'/>
           <SiAdobephotoshop size={50} color='white'/>
