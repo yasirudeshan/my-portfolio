@@ -47,3 +47,7 @@ body{
   }
 }
 
+.projectHover:hover{
+  transform: 110%;
+  transition: .2s ease-out;
+}

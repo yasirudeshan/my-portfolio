@@ -7,8 +7,8 @@ import {TbBrandVisualStudio, } from 'react-icons/tb'
 
 const Skills = () => {
   return (
-    <div name = 'skills' className=' w-full mx-auto'>
-        <h1 className='text-3xl text-center lg:pt-28 lg:text-4xl font-bold yasiru pt-20'>Skills</h1>
+    <div name = 'skills' className=' w-full mx-auto mb-8'>
+        <h1 className='text-3xl text-center lg:pt-28 lg:text-4xl font-bold yasiru pt-20 mb-24'>Skills</h1>
 
         <div className='flex flex-wrap justify-center items-center px-8 gap-4 lg:gap-8 lg:pt-16 mt-6 '>
           
