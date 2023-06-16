@@ -51,7 +51,7 @@ const Home = () => {
             </div>
         </div>
         <div className='col-span-1 flex justify-center'>
-        <img src={yas} alt = "yas" style={{width: '500px'}} />
+        <img src={yas} alt = "yas" style={{width: '700px'}} />
         </div>
     </div>
     
